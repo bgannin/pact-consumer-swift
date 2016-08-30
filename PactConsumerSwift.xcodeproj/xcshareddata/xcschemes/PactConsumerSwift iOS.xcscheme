@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A11F1A6A1A5C890D00DAB9CE"
-               BuildableName = "PactConsumerSwift.framework"
-               BlueprintName = "PactConsumerSwift"
+               BuildableName = "PactConsumerSwift iOS.framework"
+               BlueprintName = "PactConsumerSwift iOS"
                ReferencedContainer = "container:PactConsumerSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -51,8 +51,8 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "A11F1A6A1A5C890D00DAB9CE"
-                     BuildableName = "PactConsumerSwift.framework"
-                     BlueprintName = "PactConsumerSwift"
+                     BuildableName = "PactConsumerSwift iOS.framework"
+                     BlueprintName = "PactConsumerSwift iOS"
                      ReferencedContainer = "container:PactConsumerSwift.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
@@ -69,8 +69,8 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "A11F1A6A1A5C890D00DAB9CE"
-                     BuildableName = "PactConsumerSwift.framework"
-                     BlueprintName = "PactConsumerSwift"
+                     BuildableName = "PactConsumerSwift iOS.framework"
+                     BlueprintName = "PactConsumerSwift iOS"
                      ReferencedContainer = "container:PactConsumerSwift.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
@@ -93,8 +93,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A11F1A6A1A5C890D00DAB9CE"
-            BuildableName = "PactConsumerSwift.framework"
-            BlueprintName = "PactConsumerSwift"
+            BuildableName = "PactConsumerSwift iOS.framework"
+            BlueprintName = "PactConsumerSwift iOS"
             ReferencedContainer = "container:PactConsumerSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -115,8 +115,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A11F1A6A1A5C890D00DAB9CE"
-            BuildableName = "PactConsumerSwift.framework"
-            BlueprintName = "PactConsumerSwift"
+            BuildableName = "PactConsumerSwift iOS.framework"
+            BlueprintName = "PactConsumerSwift iOS"
             ReferencedContainer = "container:PactConsumerSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -133,8 +133,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A11F1A6A1A5C890D00DAB9CE"
-            BuildableName = "PactConsumerSwift.framework"
-            BlueprintName = "PactConsumerSwift"
+            BuildableName = "PactConsumerSwift iOS.framework"
+            BlueprintName = "PactConsumerSwift iOS"
             ReferencedContainer = "container:PactConsumerSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
