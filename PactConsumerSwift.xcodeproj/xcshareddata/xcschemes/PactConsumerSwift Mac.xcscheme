@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2D42AD01D762CA000F47CCA"
-               BuildableName = "PactConsumerSwift Mac.framework"
+               BuildableName = "PactConsumerSwift.framework"
                BlueprintName = "PactConsumerSwift Mac"
                ReferencedContainer = "container:PactConsumerSwift.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2D42AD01D762CA000F47CCA"
-            BuildableName = "PactConsumerSwift Mac.framework"
+            BuildableName = "PactConsumerSwift.framework"
             BlueprintName = "PactConsumerSwift Mac"
             ReferencedContainer = "container:PactConsumerSwift.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2D42AD01D762CA000F47CCA"
-            BuildableName = "PactConsumerSwift Mac.framework"
+            BuildableName = "PactConsumerSwift.framework"
             BlueprintName = "PactConsumerSwift Mac"
             ReferencedContainer = "container:PactConsumerSwift.xcodeproj">
          </BuildableReference>
