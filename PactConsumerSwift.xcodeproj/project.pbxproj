@@ -689,7 +689,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = spinks.PactConsumerSwift;
 				PRODUCT_NAME = PactConsumerSwift;
-				SDKROOT = macosx10.11;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
