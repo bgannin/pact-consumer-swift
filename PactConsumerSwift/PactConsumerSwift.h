@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 
 //! Project version number for PactConsumerSwift.
-FOUNDATION_EXPORT double PactConsumerSwiftVersionNumber;
+extern double PactConsumerSwiftVersionNumber;
 
 //! Project version string for PactConsumerSwift.
-FOUNDATION_EXPORT const unsigned char PactConsumerSwiftVersionString[];
+extern const unsigned char PactConsumerSwiftVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PactConsumerSwift/PublicHeader.h>
 

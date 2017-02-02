@@ -29,6 +29,7 @@
 		D2749FAB1E43C90E001C9D8A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D216E6D71E43C72100A9F353 /* Nimble.framework */; };
 		D2749FAC1E43C90E001C9D8A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D216E6D81E43C72100A9F353 /* Quick.framework */; };
 		D2749FAD1E43C90E001C9D8A /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D216E6D91E43C72100A9F353 /* Result.framework */; };
+		D2754EA51E43CF2D007D970C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2754EA41E43CF2D007D970C /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		D22A7EFF1E43BF4600B089BC /* PactConsumerSwift-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PactConsumerSwift-macOS.plist"; path = "/Users/bganninger/pact-consumer-swift/PactConsumerSwift-macOS.plist"; sourceTree = "<absolute>"; };
 		D22A7F001E43BFF400B089BC /* start_server.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = start_server.sh; path = scripts/start_server.sh; sourceTree = SOURCE_ROOT; };
 		D22A7F011E43BFF500B089BC /* stop_server.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = stop_server.sh; path = scripts/stop_server.sh; sourceTree = SOURCE_ROOT; };
+		D2754EA41E43CF2D007D970C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2754EA51E43CF2D007D970C /* Foundation.framework in Frameworks */,
 				D2749FA91E43C90E001C9D8A /* Alamofire.framework in Frameworks */,
 				D2749FAA1E43C90E001C9D8A /* BrightFutures.framework in Frameworks */,
 				D2749FAB1E43C90E001C9D8A /* Nimble.framework in Frameworks */,
@@ -192,6 +195,7 @@
 		D216E6D41E43C72000A9F353 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D2754EA41E43CF2D007D970C /* Foundation.framework */,
 				D216E6D51E43C72100A9F353 /* Alamofire.framework */,
 				D216E6D61E43C72100A9F353 /* BrightFutures.framework */,
 				D216E6D71E43C72100A9F353 /* Nimble.framework */,
