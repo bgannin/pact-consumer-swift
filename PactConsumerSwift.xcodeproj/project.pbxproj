@@ -9,20 +9,13 @@
 /* Begin PBXBuildFile section */
 		2DC18322E8B1922183994215 /* MatcherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC18486E5D4554858BCCA32 /* MatcherSpec.swift */; };
 		2DC18CE75C65FEDED5B6B69D /* Matcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC1855727137D1A61E22336 /* Matcher.swift */; };
-		A10AC5AE1A85EFCF00F4524C /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10AC5AD1A85EFCF00F4524C /* BrightFutures.framework */; };
-		A10AC5AF1A86105B00F4524C /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10AC5AD1A85EFCF00F4524C /* BrightFutures.framework */; };
 		A10AC5B51A87087B00F4524C /* AnimalServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AC5B31A87087B00F4524C /* AnimalServiceClient.swift */; };
 		A11F1A711A5C890D00DAB9CE /* PactConsumerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = A11F1A701A5C890D00DAB9CE /* PactConsumerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A11F1A771A5C890E00DAB9CE /* PactConsumerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11F1A6B1A5C890D00DAB9CE /* PactConsumerSwift.framework */; };
+		A11F1A771A5C890E00DAB9CE /* PactConsumerSwift-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11F1A6B1A5C890D00DAB9CE /* PactConsumerSwift-iOS.framework */; };
 		A11F1AF01A5CF84600DAB9CE /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F1AEE1A5CF84600DAB9CE /* MockService.swift */; };
 		A11F1AF11A5CF84600DAB9CE /* Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F1AEF1A5CF84600DAB9CE /* Interaction.swift */; };
 		A1343CD41A6200C100DCD05E /* InteractionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1343CD31A6200C100DCD05E /* InteractionSpec.swift */; };
 		A1343CE41A63869500DCD05E /* PactVerificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1343CE31A63869500DCD05E /* PactVerificationService.swift */; };
-		A1C3413C1D681FB90067567A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E04EA71A809828006721F8 /* Nimble.framework */; };
-		A1E04E971A80971A006721F8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E04E961A80971A006721F8 /* Alamofire.framework */; };
-		A1E04EA51A809828006721F8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E04E961A80971A006721F8 /* Alamofire.framework */; };
-		A1E04EA81A809828006721F8 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E04EA61A809828006721F8 /* Quick.framework */; };
-		A1E04EA91A809828006721F8 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E04EA71A809828006721F8 /* Nimble.framework */; };
 		A1EE189E1AA00498008B0E8C /* PactObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE189D1AA00498008B0E8C /* PactObjectiveCTests.m */; };
 		A1EE18A41AA009A9008B0E8C /* OCAnimalServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE18A31AA009A9008B0E8C /* OCAnimalServiceClient.m */; };
 		A1EE18A61AA00FC7008B0E8C /* PactSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AC5B21A87087B00F4524C /* PactSpecs.swift */; };
@@ -53,10 +46,9 @@
 		2DC1855727137D1A61E22336 /* Matcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matcher.swift; sourceTree = "<group>"; };
 		2DC1894F534D68C7B712D1DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 		2DC189C6CB7BB21E0063D70C /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = CONTRIBUTING.md; sourceTree = "<group>"; };
-		A10AC5AD1A85EFCF00F4524C /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/iOS/BrightFutures.framework; sourceTree = "<group>"; };
 		A10AC5B21A87087B00F4524C /* PactSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PactSpecs.swift; sourceTree = "<group>"; };
 		A10AC5B31A87087B00F4524C /* AnimalServiceClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalServiceClient.swift; sourceTree = "<group>"; };
-		A11F1A6B1A5C890D00DAB9CE /* PactConsumerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PactConsumerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11F1A6B1A5C890D00DAB9CE /* PactConsumerSwift-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "PactConsumerSwift-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11F1A6F1A5C890D00DAB9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A11F1A701A5C890D00DAB9CE /* PactConsumerSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PactConsumerSwift.h; sourceTree = "<group>"; };
 		A11F1A761A5C890E00DAB9CE /* PactConsumerSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PactConsumerSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,9 +57,6 @@
 		A11F1AEF1A5CF84600DAB9CE /* Interaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interaction.swift; sourceTree = "<group>"; };
 		A1343CD31A6200C100DCD05E /* InteractionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractionSpec.swift; sourceTree = "<group>"; };
 		A1343CE31A63869500DCD05E /* PactVerificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PactVerificationService.swift; sourceTree = "<group>"; };
-		A1E04E961A80971A006721F8 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		A1E04EA61A809828006721F8 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		A1E04EA71A809828006721F8 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		A1EE189C1AA00497008B0E8C /* PactConsumerSwiftTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PactConsumerSwiftTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		A1EE189D1AA00498008B0E8C /* PactObjectiveCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PactObjectiveCTests.m; sourceTree = "<group>"; };
 		A1EE18A21AA009A9008B0E8C /* OCAnimalServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAnimalServiceClient.h; sourceTree = "<group>"; };
@@ -88,9 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C3413C1D681FB90067567A /* Nimble.framework in Frameworks */,
-				A10AC5AE1A85EFCF00F4524C /* BrightFutures.framework in Frameworks */,
-				A1E04E971A80971A006721F8 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,11 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10AC5AF1A86105B00F4524C /* BrightFutures.framework in Frameworks */,
-				A1E04EA81A809828006721F8 /* Quick.framework in Frameworks */,
-				A1E04EA91A809828006721F8 /* Nimble.framework in Frameworks */,
-				A1E04EA51A809828006721F8 /* Alamofire.framework in Frameworks */,
-				A11F1A771A5C890E00DAB9CE /* PactConsumerSwift.framework in Frameworks */,
+				A11F1A771A5C890E00DAB9CE /* PactConsumerSwift-iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,10 +106,6 @@
 		A11F1A611A5C890D00DAB9CE = {
 			isa = PBXGroup;
 			children = (
-				A10AC5AD1A85EFCF00F4524C /* BrightFutures.framework */,
-				A1E04EA61A809828006721F8 /* Quick.framework */,
-				A1E04EA71A809828006721F8 /* Nimble.framework */,
-				A1E04E961A80971A006721F8 /* Alamofire.framework */,
 				A1343CE61A64D59E00DCD05E /* script */,
 				A11F1A6D1A5C890D00DAB9CE /* PactConsumerSwift */,
 				A11F1A7A1A5C890E00DAB9CE /* PactConsumerSwiftTests */,
@@ -142,7 +120,7 @@
 		A11F1A6C1A5C890D00DAB9CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A11F1A6B1A5C890D00DAB9CE /* PactConsumerSwift.framework */,
+				A11F1A6B1A5C890D00DAB9CE /* PactConsumerSwift-iOS.framework */,
 				A11F1A761A5C890E00DAB9CE /* PactConsumerSwiftTests.xctest */,
 				D22A7EFE1E43BF4500B089BC /* PactConsumerSwift.framework */,
 			);
@@ -245,9 +223,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A11F1A6A1A5C890D00DAB9CE /* PactConsumerSwift */ = {
+		A11F1A6A1A5C890D00DAB9CE /* PactConsumerSwift-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A11F1A811A5C890E00DAB9CE /* Build configuration list for PBXNativeTarget "PactConsumerSwift" */;
+			buildConfigurationList = A11F1A811A5C890E00DAB9CE /* Build configuration list for PBXNativeTarget "PactConsumerSwift-iOS" */;
 			buildPhases = (
 				A11F1A661A5C890D00DAB9CE /* Sources */,
 				A11F1A671A5C890D00DAB9CE /* Frameworks */,
@@ -259,9 +237,9 @@
 			);
 			dependencies = (
 			);
-			name = PactConsumerSwift;
+			name = "PactConsumerSwift-iOS";
 			productName = PactConsumerSwift;
-			productReference = A11F1A6B1A5C890D00DAB9CE /* PactConsumerSwift.framework */;
+			productReference = A11F1A6B1A5C890D00DAB9CE /* PactConsumerSwift-iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A11F1A751A5C890E00DAB9CE /* PactConsumerSwiftTests */ = {
@@ -335,7 +313,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A11F1A6A1A5C890D00DAB9CE /* PactConsumerSwift */,
+				A11F1A6A1A5C890D00DAB9CE /* PactConsumerSwift-iOS */,
 				A11F1A751A5C890E00DAB9CE /* PactConsumerSwiftTests */,
 				D22A7EED1E43BF4500B089BC /* PactConsumerSwift-macOS */,
 			);
@@ -463,7 +441,7 @@
 /* Begin PBXTargetDependency section */
 		A11F1A791A5C890E00DAB9CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A11F1A6A1A5C890D00DAB9CE /* PactConsumerSwift */;
+			target = A11F1A6A1A5C890D00DAB9CE /* PactConsumerSwift-iOS */;
 			targetProxy = A11F1A781A5C890E00DAB9CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -681,7 +659,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = spinks.PactConsumerSwift;
 				PRODUCT_NAME = PactConsumerSwift;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.11;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -711,7 +689,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = spinks.PactConsumerSwift;
 				PRODUCT_NAME = PactConsumerSwift;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.11;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -729,7 +707,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A11F1A811A5C890E00DAB9CE /* Build configuration list for PBXNativeTarget "PactConsumerSwift" */ = {
+		A11F1A811A5C890E00DAB9CE /* Build configuration list for PBXNativeTarget "PactConsumerSwift-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A11F1A821A5C890E00DAB9CE /* Debug */,
