@@ -26,13 +26,15 @@
 		A1EE189E1AA00498008B0E8C /* PactObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE189D1AA00498008B0E8C /* PactObjectiveCTests.m */; };
 		A1EE18A41AA009A9008B0E8C /* OCAnimalServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE18A31AA009A9008B0E8C /* OCAnimalServiceClient.m */; };
 		A1EE18A61AA00FC7008B0E8C /* PactSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AC5B21A87087B00F4524C /* PactSpecs.swift */; };
+		D216E6DA1E43C72100A9F353 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D216E6D51E43C72100A9F353 /* Alamofire.framework */; };
+		D216E6DB1E43C72100A9F353 /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D216E6D61E43C72100A9F353 /* BrightFutures.framework */; };
+		D216E6DC1E43C72100A9F353 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D216E6D71E43C72100A9F353 /* Nimble.framework */; };
+		D216E6DD1E43C72100A9F353 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D216E6D81E43C72100A9F353 /* Quick.framework */; };
+		D216E6DE1E43C72100A9F353 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D216E6D91E43C72100A9F353 /* Result.framework */; };
 		D22A7EEF1E43BF4500B089BC /* Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F1AEF1A5CF84600DAB9CE /* Interaction.swift */; };
 		D22A7EF01E43BF4500B089BC /* PactVerificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1343CE31A63869500DCD05E /* PactVerificationService.swift */; };
 		D22A7EF11E43BF4500B089BC /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F1AEE1A5CF84600DAB9CE /* MockService.swift */; };
 		D22A7EF21E43BF4500B089BC /* Matcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC1855727137D1A61E22336 /* Matcher.swift */; };
-		D22A7EF41E43BF4500B089BC /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E04EA71A809828006721F8 /* Nimble.framework */; };
-		D22A7EF51E43BF4500B089BC /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10AC5AD1A85EFCF00F4524C /* BrightFutures.framework */; };
-		D22A7EF61E43BF4500B089BC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E04E961A80971A006721F8 /* Alamofire.framework */; };
 		D22A7EF81E43BF4500B089BC /* PactConsumerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = A11F1A701A5C890D00DAB9CE /* PactConsumerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,11 @@
 		A1EE189D1AA00498008B0E8C /* PactObjectiveCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PactObjectiveCTests.m; sourceTree = "<group>"; };
 		A1EE18A21AA009A9008B0E8C /* OCAnimalServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAnimalServiceClient.h; sourceTree = "<group>"; };
 		A1EE18A31AA009A9008B0E8C /* OCAnimalServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAnimalServiceClient.m; sourceTree = "<group>"; };
+		D216E6D51E43C72100A9F353 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		D216E6D61E43C72100A9F353 /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/Mac/BrightFutures.framework; sourceTree = "<group>"; };
+		D216E6D71E43C72100A9F353 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		D216E6D81E43C72100A9F353 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		D216E6D91E43C72100A9F353 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
 		D22A7EFE1E43BF4500B089BC /* PactConsumerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PactConsumerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22A7EFF1E43BF4600B089BC /* PactConsumerSwift-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PactConsumerSwift-macOS.plist"; path = "/Users/bganninger/pact-consumer-swift/PactConsumerSwift-macOS.plist"; sourceTree = "<absolute>"; };
 		D22A7F001E43BFF400B089BC /* start_server.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = start_server.sh; path = scripts/start_server.sh; sourceTree = SOURCE_ROOT; };
@@ -103,9 +110,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D22A7EF41E43BF4500B089BC /* Nimble.framework in Frameworks */,
-				D22A7EF51E43BF4500B089BC /* BrightFutures.framework in Frameworks */,
-				D22A7EF61E43BF4500B089BC /* Alamofire.framework in Frameworks */,
+				D216E6DA1E43C72100A9F353 /* Alamofire.framework in Frameworks */,
+				D216E6DB1E43C72100A9F353 /* BrightFutures.framework in Frameworks */,
+				D216E6DC1E43C72100A9F353 /* Nimble.framework in Frameworks */,
+				D216E6DD1E43C72100A9F353 /* Quick.framework in Frameworks */,
+				D216E6DE1E43C72100A9F353 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +135,7 @@
 				2DC1894F534D68C7B712D1DF /* README.md */,
 				2DC189C6CB7BB21E0063D70C /* CONTRIBUTING.md */,
 				D22A7EFF1E43BF4600B089BC /* PactConsumerSwift-macOS.plist */,
+				D216E6D41E43C72000A9F353 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,6 +209,18 @@
 				A10AC5B21A87087B00F4524C /* PactSpecs.swift */,
 			);
 			name = PactTests;
+			sourceTree = "<group>";
+		};
+		D216E6D41E43C72000A9F353 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D216E6D51E43C72100A9F353 /* Alamofire.framework */,
+				D216E6D61E43C72100A9F353 /* BrightFutures.framework */,
+				D216E6D71E43C72100A9F353 /* Nimble.framework */,
+				D216E6D81E43C72100A9F353 /* Quick.framework */,
+				D216E6D91E43C72100A9F353 /* Result.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -648,6 +670,7 @@
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/PactConsumerSwift-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -678,6 +701,7 @@
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/PactConsumerSwift-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
