@@ -70,7 +70,7 @@
 		A1EE189D1AA00498008B0E8C /* PactObjectiveCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PactObjectiveCTests.m; sourceTree = "<group>"; };
 		A1EE18A21AA009A9008B0E8C /* OCAnimalServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAnimalServiceClient.h; sourceTree = "<group>"; };
 		A1EE18A31AA009A9008B0E8C /* OCAnimalServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAnimalServiceClient.m; sourceTree = "<group>"; };
-		D22A7EFE1E43BF4500B089BC /* PactConsumerSwift-macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "PactConsumerSwift-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22A7EFE1E43BF4500B089BC /* PactConsumerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PactConsumerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22A7EFF1E43BF4600B089BC /* PactConsumerSwift-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PactConsumerSwift-macOS.plist"; path = "/Users/bganninger/pact-consumer-swift/PactConsumerSwift-macOS.plist"; sourceTree = "<absolute>"; };
 		D22A7F001E43BFF400B089BC /* start_server.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = start_server.sh; path = scripts/start_server.sh; sourceTree = SOURCE_ROOT; };
 		D22A7F011E43BFF500B089BC /* stop_server.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = stop_server.sh; path = scripts/stop_server.sh; sourceTree = SOURCE_ROOT; };
@@ -134,7 +134,7 @@
 			children = (
 				A11F1A6B1A5C890D00DAB9CE /* PactConsumerSwift.framework */,
 				A11F1A761A5C890E00DAB9CE /* PactConsumerSwiftTests.xctest */,
-				D22A7EFE1E43BF4500B089BC /* PactConsumerSwift-macOS.framework */,
+				D22A7EFE1E43BF4500B089BC /* PactConsumerSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			);
 			name = "PactConsumerSwift-macOS";
 			productName = PactConsumerSwift;
-			productReference = D22A7EFE1E43BF4500B089BC /* PactConsumerSwift-macOS.framework */;
+			productReference = D22A7EFE1E43BF4500B089BC /* PactConsumerSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -658,7 +658,7 @@
 					XCTest,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = spinks.PactConsumerSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PactConsumerSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -688,7 +688,7 @@
 					XCTest,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = spinks.PactConsumerSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PactConsumerSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
