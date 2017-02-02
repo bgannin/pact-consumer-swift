@@ -1,7 +1,6 @@
 
 
 #import <Foundation/Foundation.h>
-
 #import <XCTest/XCTest.h>
 #import "OCAnimalServiceClient.h"
 
@@ -41,7 +40,7 @@
       Animal *animal = [self.animalServiceClient getAlligator];
       XCTAssertEqualObjects(animal.name, @"Mary");
       testComplete();
-  }];
+  } withTimeout: 10];
 }
 
 - (void)testWithQueryParams {

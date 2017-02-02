@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2D42AD01D762CA000F47CCA"
-               BuildableName = "PactConsumerSwift.framework"
-               BlueprintName = "PactConsumerSwift Mac"
+               BlueprintIdentifier = "D22A7EED1E43BF4500B089BC"
+               BuildableName = "PactConsumerSwift-macOS.framework"
+               BlueprintName = "PactConsumerSwift-macOS"
                ReferencedContainer = "container:PactConsumerSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2D42AD01D762CA000F47CCA"
-            BuildableName = "PactConsumerSwift.framework"
-            BlueprintName = "PactConsumerSwift Mac"
+            BlueprintIdentifier = "D22A7EED1E43BF4500B089BC"
+            BuildableName = "PactConsumerSwift-macOS.framework"
+            BlueprintName = "PactConsumerSwift-macOS"
             ReferencedContainer = "container:PactConsumerSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2D42AD01D762CA000F47CCA"
-            BuildableName = "PactConsumerSwift.framework"
-            BlueprintName = "PactConsumerSwift Mac"
+            BlueprintIdentifier = "D22A7EED1E43BF4500B089BC"
+            BuildableName = "PactConsumerSwift-macOS.framework"
+            BlueprintName = "PactConsumerSwift-macOS"
             ReferencedContainer = "container:PactConsumerSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
