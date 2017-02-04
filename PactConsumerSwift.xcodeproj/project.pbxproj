@@ -312,6 +312,7 @@
 				"$(SRCROOT)/Carthage/Build/Mac/BrightFutures.framework",
 				"$(SRCROOT)/Carthage/Build/Mac/Result.framework",
 				"$(SRCROOT)/Carthage/Build/Mac/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/Quick.framework",
 			);
 			outputPaths = (
 			);
