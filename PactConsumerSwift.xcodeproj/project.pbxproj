@@ -219,7 +219,6 @@
 				D22A7EF31E43BF4500B089BC /* Frameworks */,
 				D22A7EF71E43BF4500B089BC /* Headers */,
 				D22A7EF91E43BF4500B089BC /* Resources */,
-				D22A7EFA1E43BF4500B089BC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -301,24 +300,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "PATH=/usr/local/bin:/opt/boxen/homebrew/bin:$PATH\ncarthage copy-frameworks";
-		};
-		D22A7EFA1E43BF4500B089BC /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/Mac/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/Mac/BrightFutures.framework",
-				"$(SRCROOT)/Carthage/Build/Mac/Result.framework",
-				"$(SRCROOT)/Carthage/Build/Mac/Nimble.framework",
-				"$(SRCROOT)/Carthage/Build/Mac/Quick.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "PATH=/usr/local/bin:/opt/boxen/homebrew/bin:$PATH\n\nif [ -f $SRCROOT/Carthage/Build/Mac/Alamofire.framework ];\nthen\n    carthage copy-frameworks\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
